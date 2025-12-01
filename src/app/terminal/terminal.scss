@@ -1,0 +1,83 @@
+.terminal-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to top,
+        #3166a7,
+        #a7bfdc
+        
+    );
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.div-botoes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+}
+.btn-email{
+    background-color: white;
+    border-radius: 16px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #0b458b; // borda da mesma cor do botão
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #a0a0a0; // cinza claro para o texto digitado
+    
+    // Estilo do placeholder
+    &::placeholder {
+        color: #a0a0a0; // cinza claro
+    }
+    
+    // Quando o usuário clicar no campo
+    &:focus {
+        outline: none; // remove a borda azul padrão
+        border-color: #0b458b; // mantém a cor da borda
+    }
+}
+
+.btn-senha{
+    background-color: white;
+    border-radius: 16px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #0b458b; // borda da mesma cor do botão
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #a0a0a0; // cinza claro para o texto digitado
+    
+    // Estilo do placeholder
+    &::placeholder {
+        color: #a0a0a0; // cinza claro
+    }
+    
+    // Quando o usuário clicar no campo
+    &:focus {
+        outline: none; // remove a borda azul padrão
+        border-color: #0b458b; // mantém a cor da borda
+    }
+}
+
+.btn-entrar{
+        background-color: #0b458b;
+        border-radius: 16px;
+        width: 200px;
+        height: 39px;
+        border: none; // remove borda do botão
+        color: white; // texto branco no botão
+        font-size: 16px;
+        cursor: pointer; // mãozinha ao passar o mouse
+        
+        // Efeito ao passar o mouse
+        &:hover {
+            background-color: #0d5cb8; // um pouco mais claro
+            background: #2a5f9e;
+    transform: translateY(-4px);
+       
+}
+}

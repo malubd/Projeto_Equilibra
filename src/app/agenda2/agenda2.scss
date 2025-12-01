@@ -1,0 +1,77 @@
+.agenda-container {
+    
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #3166a7, #a7bfdc);
+
+    gap: 10px; // espaço pequeno entre eles //
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px; // adiciona espaço no final
+    box-sizing: border-box;//muda a forma como o navegador calcula o tamanho de um elemento.
+    overflow: hidden; //impede o scroll mas não ta funcionando
+  }
+  
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+
+.icone-anjo {
+    width: 90px;
+}
+}
+
+.card{
+    width: 350px; 
+    max-width: 380px; 
+    height: 530px;
+    background: #D1E0F4;
+    border-radius: 22px;
+    padding: 25px; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px; // mais espaço entre cards
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+.item-card {
+    display: flex;
+    align-items: center; 
+    gap: 12px;             
+    background: #A5BBD9;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 5px;
+    width: 300px;
+    height: 300px; 
+}
+
+.item-card .icon {
+width: 50px; // maior para mobile
+}
+
+.hora {
+    font-size: 30px;
+    margin: 0;
+    color: #0B1A3E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.desc {
+    font-size: 35px;
+    margin: 0;
+    margin-top: -3px;
+    color: #0B1A3E;
+    display: flex;
+    align-items: center;   
+    gap: 10px;
+}
+.emoji {
+    font-size: 30px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+

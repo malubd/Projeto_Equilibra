@@ -1,0 +1,76 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to top, 
+        #3166a7, #a7bfdc);
+
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;
+    align-items: center;
+    gap: 40px;   // espaço entre o card e os botões
+    padding: 20px;
+    box-sizing: border-box;
+    
+  }
+  
+.card {
+    background: rgba(230, 236, 255, 0.95);
+    padding: 40px 8px; //espaçamento do card da parte de cima/de baixo(40px) e dos lados(8px)
+    border-radius: 12px; //borda
+    max-width: 200px;
+    width: 150px;
+    text-align: center;
+    color: #1e4d85;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); //faz a sombra
+    
+  }
+  
+.card h2 {
+    font-size: 20px;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.card p {
+    font-size: 17px;
+    margin: 0;
+    line-height: 1.4;
+    
+  }
+  
+.div-btn {
+    text-align: center;
+    color: white;
+  }
+  
+.div-btn p {
+    margin: 0 0 24px 0;
+    font-size: 1.15rem;
+  }
+  
+  
+.div-btn button {
+    background: #1e4d85;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 48px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 140px;
+    margin: 0 12px;  // espaço entre os dois botões
+  }
+  
+.div-btn button:hover {
+    background: #2a5f9e;
+    transform: translateY(-2px);
+  }
+.div-btn p{
+    color: #0b315f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="círculos">
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+  </div>
+ 
+
+    <h2>Como você está se sentindo hoje?</h2>
+  
+    <div class="mood-options">
+      <button 
+        [class.selected]="mood === 'feliz'"
+        (click)="setMood('feliz')">😊 Feliz</button>
+  
+      <button 
+        [class.selected]="mood === 'neutro'"
+        (click)="setMood('neutro')">😐 Neutro</button>
+  
+      <button 
+        [class.selected]="mood === 'triste'"
+        (click)="setMood('triste')">🥺 Triste</button>
+    </div>
+  
+    <h2>Como está sua energia hoje?</h2>
+  
+    <div class="energy-options">
+      <button
+        [class.selected]="energia === 'alta'"
+        (click)="setEnergia('alta')">Alta</button>
+  
+      <button
+        [class.selected]="energia === 'media'"
+        (click)="setEnergia('media')">Média</button>
+  
+      <button
+        [class.selected]="energia === 'baixa'"
+        (click)="setEnergia('baixa')">Baixa</button>
+    </div>
+  
+    <button class="continue-btn" (click)="gerarMensagem()">Continuar</button>
+  </div>
+  
