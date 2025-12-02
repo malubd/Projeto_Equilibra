@@ -20,4 +20,13 @@ export class Interface5x2 {
     console.log('teste evento de clique')
     this.router.navigate(["/checklist"])
   }
+  desafio(){
+    this.router.navigate(["/desafio"])
+  }
+  feedback(){
+    this.router.navigate(["/feedback"])
+  }
+  painel(){
+    this.router.navigate(["/painel"])
+  }
 }

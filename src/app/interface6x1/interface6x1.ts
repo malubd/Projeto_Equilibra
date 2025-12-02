@@ -19,4 +19,16 @@ constructor(private router: Router) {}
     console.log('teste evento de clique')
     this.router.navigate(["/agenda"])
   }
+  checklistsemanal(){
+    this.router.navigate(["/checklist-semanal"])
+  }
+  rituais(){
+    this.router.navigate(["/rituais"])
+  }
+  organizacao(){
+    this.router.navigate(["/organizacao"])
+  }
+  rastreamento(){
+    this.router.navigate(["/rastreamento"])
+  }
 }

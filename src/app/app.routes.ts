@@ -11,6 +11,13 @@ import { Agenda } from './agenda/agenda';
 import { Sugestao } from './sugestao/sugestao';
 import { Agenda2 } from './agenda2/agenda2';
 import { Scanner } from './scanner-mental/scanner-mental';
+import { Desafio } from './desafio/desafio';
+import { Feedback } from './feedback/feedback';
+import { Organizacao } from './organizacao/organizacao';
+import { Rastreamento } from './rastreamento/rastreamento';
+import { Rituais } from './rituais/rituais';
+import { Painel } from './painel/painel';
+import { ChecklistSemanal } from './checklist-semanal/checklist-semanal';
 
 
 export const routes: Routes = [
@@ -25,5 +32,12 @@ export const routes: Routes = [
 {path: "tela3", component: Tela3},
 {path:"agenda2", component: Agenda2},
 {path: "agenda", component: Agenda},
-{path: "sugestao", component: Sugestao}
+{path: "sugestao", component: Sugestao},
+{path: "desafio", component: Desafio},
+{path:"feedback", component: Feedback},
+{path: "organizacao", component: Organizacao},
+{path:"rastreamento", component: Rastreamento},
+{path:"rituais", component: Rituais},
+{path:"painel", component: Painel},
+{path: "checklist-semanal", component: ChecklistSemanal}
 ];
